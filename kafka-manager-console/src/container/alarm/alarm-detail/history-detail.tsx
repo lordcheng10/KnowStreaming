@@ -51,7 +51,9 @@ export class HistoryDetail extends React.Component {
   }
 
   public renderHistoricalTraffic(metric: IMonitorMetric) {
-    const option = this.getChartOption() as EChartsOption;
+    // const option = this.getChartOption() as EChartsOption;
+    // @ts-ignore
+    const option = this.getChartOption() as unknown as EChartsOption;
 
     return (
       <>
