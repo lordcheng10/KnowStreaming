@@ -6,7 +6,7 @@
     <artifactId>kafka-manager-console</artifactId>
 
     <parent>
-        <artifactId>kafka-manager</artifactId>
+        <artifactId>BmKafkaManager</artifactId>
         <groupId>com.xiaojukeji.kafka</groupId>
         <version>${kafka-manager.revision}</version>
     </parent>
